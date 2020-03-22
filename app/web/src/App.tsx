@@ -85,7 +85,14 @@ function App() {
           </div>
         </Content>
         <Footer style={{ textAlign: "center" }}>
-          Corona Helden v0.6 | 2020.03.22
+          Corona Helden v0.6 | 2020.03.22 |{" "}
+          <a
+            href="http://corona-helden.net/datenschutzerklaerung"
+            target="blank"
+          >
+            Datenschutz
+          </a>{" "}
+          | <a href="http://corona-helden.net/impressum">Impressum</a>
           {/* v{process.env["REACT_APP_BUILD_BUILDID"]} |{" "}
           {process.env["REACT_APP_BUILD_BUILDNUMBER"]}{" "} */}
         </Footer>
